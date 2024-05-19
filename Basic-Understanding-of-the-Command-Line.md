@@ -1,7 +1,3 @@
-Certainly! Here's a guide on the basics of the command line, tailored for beginners.
-
----
-
 ## Basic Understanding of the Command Line
 
 ### What is the Command Line?
@@ -20,7 +16,7 @@ Certainly! Here's a guide on the basics of the command line, tailored for beginn
 - **Mac**: Open the Terminal. Find it in Applications > Utilities > Terminal.
 - **Linux**: Open the Terminal. Depending on the distribution, find it in the application menu or use the keyboard shortcut (often `Ctrl + Alt + T`).
 
-### Basic Commands
+### Basic Commands (Tested on Bash)
 
 #### Navigating the File System
 - **Current Directory**: Display the current working directory.
@@ -86,9 +82,9 @@ Certainly! Here's a guide on the basics of the command line, tailored for beginn
   
 - **Editing Files**: Use text editors like `nano`, `vim`, or `code` (VS Code).
   ```bash
-  nano filename
+  code filename
   ```
-  - Example: `nano notes.txt`
+  - Example: `code notes.txt`
 
 #### Miscellaneous Commands
 - **Clear Screen**: Clear the terminal screen.
@@ -135,10 +131,10 @@ Certainly! Here's a guide on the basics of the command line, tailored for beginn
    ```
 6. **Open `readme.txt` in a text editor (e.g., nano)**:
    ```bash
-   nano readme.txt
+   code readme.txt
    ```
 7. **Write a few lines in `readme.txt`, save, and exit**:
-   - In `nano`, type your text, then press `Ctrl + X`, `Y`, and `Enter` to save and exit.
+   - In `code`, type your text, then press `Ctrl + X`, `Y`, and `Enter` to save and exit.
 
 ---
 
