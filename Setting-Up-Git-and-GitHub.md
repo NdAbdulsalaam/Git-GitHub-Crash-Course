@@ -56,7 +56,7 @@ SSH keys allow you to securely connect to GitHub without needing to enter your u
    ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
    ```
 
-2. **Add the SSH key to the SSH agent**:
+<!-- 2. **Add the SSH key to the SSH agent**:
    - Start the SSH agent:
      ```bash
      eval "$(ssh-agent -s)"
@@ -68,7 +68,7 @@ SSH keys allow you to securely connect to GitHub without needing to enter your u
    - If you used `rsa`, the command would be:
      ```bash
      ssh-add ~/.ssh/id_rsa
-     ```
+     ``` -->
 
 ### Step 4: Add the SSH Key to GitHub
 1. **Copy the SSH key to your clipboard**:
