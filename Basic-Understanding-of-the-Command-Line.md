@@ -73,7 +73,19 @@
   - Example: `rm unwantedfile.txt`
   - For directories: `rm -r directory-name`
 
-#### Viewing and Editing Files
+#### Editing and Viewing Files
+- **Editing File Contents**: Replace the contents of a file.
+  ```bash
+  echo "file content" > filename
+  ```
+  - Example: `echo "First line" > example.txt`
+
+- **Editing File Contents**: Append to the contents of a file.
+  ```bash
+  echo "file content" >> filename
+  ```
+  - Example: `echo "First line" >> example.txt`
+
 - **Viewing File Contents**: Display the contents of a file.
   ```bash
   cat filename
